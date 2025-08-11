@@ -16,6 +16,7 @@ export default function Page() {
 
   console.log("Transactions:", transactions);
   console.log("Summary:", summary);
+  console.log("UserId:", user.id);
 
   return (
     <View>
